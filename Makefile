@@ -199,6 +199,7 @@ UPROGS=\
 	$U/_find\
 	$U/_xargs\
 	$U/_test\
+	$U/_trace
 
 ifeq ($(LAB),$(filter $(LAB), pgtbl lock))
 UPROGS += \
